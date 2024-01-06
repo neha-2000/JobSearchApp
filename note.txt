@@ -1,0 +1,73 @@
+-nvm use  18.16.1
+-npx create-expo-app@latest -e with-router
+
+-cd my-app
+- npm run android
+- npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
+- npm run web
+
+npm install expo-font
+npm i axios react-native-dotenv
+npm i -g expo-cli
+
+
+
+https://rapidapi.com/hub
+JSearch apis - https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch
+
+Navigation  
+-expo router -file based
+-rendering - renders react native component
+    -<Text></Text>
+    -<View></View> 
+        - It is used to create a container or "view" for the other components similar to <div></div>
+        - Often used to create layout structures for other components.
+        -It uses flexbox layout by default (this makes easy to control how its child components are laid out within the container)
+    -TouchableOpacity 
+        - To create button or another interactive element that fades in opacity when pressed , you can use TouchableOpacity component.
+        -Its replacement of button.
+    -ActivityIndicator
+        - It is used for showing a spinner or loading indicator in app.
+    -FlatList
+        -Replacement of map function in react .
+        -Its used dor rendering a long list items that need to be scrolled efficiently.
+        -Optimized scroll performance.
+        -Item separation.
+
+        For larger list with smooth scrolling - FLAT LIST
+        For smaller lists -MAP
+    -ScrollView
+        its like overflow scroll 
+    -SafeAreaView
+        -It provides a safe zone to render your app's content without being covered by the devices hardware features like the notch,home indicator or statusbar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
